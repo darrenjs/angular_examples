@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'material-dialog';
+
+  onClick() {
+    console.log("TODO: open dialog from here");
+  }
 }
