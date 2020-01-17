@@ -1,0 +1,8 @@
+<h1 mat-dialog-title>Modal Dialog</h1>
+<div mat-dialog-content>
+  <p>{{message}}</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-raised-button (click)="onCancelClick()">Cancel</button>
+  <button mat-raised-button color="primary" (click)="onSubmitClick()" cdkFocusInitial>Submit</button>
+</div>
